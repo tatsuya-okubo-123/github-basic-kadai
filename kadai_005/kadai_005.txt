@@ -1,0 +1,17 @@
+PS C:\Users\f1121\OneDrive\デスクトップ> cd C:\Users\f1121\OneDrive\デスクトップ\git_challenge
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/f1121/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> echo "Hello,world!" > hello_world.txt
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> git commit -m "コミット1"
+[main (root-commit) 8c7bde0] コミット1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> git commit -m "コミット2"
+[main fb96539] コミット2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\f1121\OneDrive\デスクトップ\git_challenge> git log --oneline
+fb96539 (HEAD -> main) コミット2
+8c7bde0 コミット1
